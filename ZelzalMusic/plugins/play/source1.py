@@ -14,11 +14,11 @@ from random import  choice, randint
 
                 
 @app.on_message(
-    command(["احمد","دارك","المطور","مبرمج السورس","مطور السورس","الهكر","الهقر","مطور"])
+    command(["احمد","دارك","المطور","مبرمج السورس","مطور السورس","الهكر","الهقر","مطور","احما","احماو"])
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/cc514ad2cb01a66e8eaa0.jpg",
+        photo=f"https://telegra.ph/file/7e62aa257049a8445f455.jpg",
         caption=f"""◉ 𝙽𝙰𝙼𝙴 : ❪𝗔 𝗵 𝗠 𝗲 𝗱❫
 ◉ 𝚄𝚂𝙴𝚁 : ❪ @A7_M3 ❫
 ◉ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 : ❪ D2_RK.t.me ❫
