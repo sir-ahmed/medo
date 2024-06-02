@@ -28,3 +28,4 @@ pytz
 kvsqlite
 telegraph
 gTTS
+idle
