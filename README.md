@@ -1,4 +1,4 @@
-![Super-Music](https://telegra.ph/file/b3e5093cb07c6185cd3fc.jpg)
+![Super-Music](https://telegra.ph/file/c8cab653cf02d05a25fa3.jpg)
 تنصيب بوتات قران
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=WELCOME+TO+SOURCE-DARK+AN+ADVANCE+BOT)](https://github.com/FM8Y/Super-Music)
