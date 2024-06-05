@@ -17,7 +17,7 @@ from ZelzalMusic import app
 async def svksksa(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph//file/a6137caa707bdb1247d7c.jpg",
-        caption=f"""[خش احذف محدش هيمسك فيك يصحبي 🖤""",
+        caption=f"""[خش احذف محدش هيمسك فيك يصحبي 🖤]""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
