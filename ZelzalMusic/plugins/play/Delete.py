@@ -8,19 +8,18 @@ from pyrogram.errors import FloodWait
 
 
 
-@app.on_message(filters.command(["بوت حذف","رابط الحذف","حذف حساب","عاوز احذف"], ""))
-async def maker(client: Client, message: Message):
-     await message.reply_video(
-        video="https://telegra.ph/file/7a7e4909d7f78e8d4c685.mp4",
-        caption="↢ مع السلامـة تعالى زورنـا كمان مـرة 👋🤍 [اضغط هنا](t.me/LC6Bot)",
-            reply_markup=InlineKeyboardMarkup(
+@app.on_message(filters.command(["حذف", "عاوز احذف", "بوت حذف"], ""))
+async def svksksa(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph//file/a6137caa707bdb1247d7c.jpg",
+        caption=f"""[خش احذف محدش هيمسك فيك يصحبي   😂🖤""",
+        reply_markup=InlineKeyboardMarkup(
             [
                 [
-                     InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/{message.from_user.username}")
-                ],
-            ]
-        )
+                    InlineKeyboardButton(
+                        "• اضـغـط لـدخول للـبوت", url=f"https://t.me/LC6Bot")
+                ]
+           ]
+        ),
     )
-
-
+   
