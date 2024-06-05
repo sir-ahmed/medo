@@ -13,13 +13,13 @@ async def pinterest(_, message):
      except:
          return await message.reply("اعطيني اسما حتى اتمكن من تصويره")
 
-     images = get(f"https://pinterest-api-one.vercel.app/?q={query}")
+     image = get(f"https://pinterest-api-one.vercel.app/?q={query}")
 
      media_group = []
      count = 0
 
      msg = await message.reply(f"جار جلب الصور إلى موقع Pinterest...")
-     for url in images["images"][:10]:
+     for url in image["image"][:3]:
                   
           media_group.append(InputMediaPhoto(media=url))
           count += 1
